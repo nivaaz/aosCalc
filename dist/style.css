@@ -1,0 +1,259 @@
+/**
+#3366CC 
+#336666 
+#339999 
+#FF6666
+**/
+/*GLOBAL*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/*Header*/
+header{
+    margin: auto;
+    text-align: center;
+}
+/*navitem*/
+a, nav h2{
+    display: inline;
+    width: 20%;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;  
+}
+a:link {
+    color:green;   
+    color: #3da24b}
+a:visited{
+    color: black;
+}
+a:hover:{
+    color: white;
+}
+a:active{
+    color: green;
+}
+.reactContainer {
+    background: linear-gradient( 45deg,white, whitesmoke);
+}
+
+/**PARTITION**/
+body {
+    background: linear-gradient( -45deg,white, whitesmoke);
+}
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    padding: 50px;
+    background: linear-gradient(-45deg, #52b760, #3da24b);
+}
+header .title {
+    color: white;
+}
+.partContainer{
+    text-align: center;
+    margin:auto;
+    vertical-align: middle;
+    height: 150%;
+    padding-top:50px;
+}
+.partition {
+    vertical-align: middle;
+    margin:auto;
+    width: 45%;
+    height: 100%;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+}
+#left {
+    display: inline-block;
+}
+#right {
+    display: inline-block;
+    width : 40%;
+}
+
+.addedSubject {
+    background : #52b760;
+    color : white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 150%;
+    border-radius: 20px;
+    display:inline-block;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+#mark{
+    display: inline-block;
+
+}
+select {
+    padding: 1%;
+    padding-left: 15px;
+    border:hidden;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    background-color: #52b760;
+     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+input {
+    padding: 1%;
+    width: 20%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    padding-left: 15px;
+    border:hidden;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    background-color: #52b760;
+   }
+   #markInput{
+    width:40%;
+   }
+
+button {
+    margin: 25px;
+    border:hidden;
+    border-radius: 100%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    background: #99e265;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+buttonContainer {
+    display: block;
+    margin: 0;
+    text-align: center;
+} 
+.edit {
+    color: #336699;
+}
+.done{
+    color:#52b760;
+}
+.addButton{
+    width: 50px;
+    height: 50px;
+    padding:0;
+}
+#cancel{
+ background:white ;
+    border-radius: 10px;
+    color:#FF6666;
+    border-style: solid;
+    border-color: #FF6666;
+    font-size:24px;
+    padding:5px;
+}
+#buttonNo{
+    color:#FF6644;
+}
+#buttonMaybe{
+    color:#339999 ;
+}
+#buttonYes, #buttonNo, #buttonMaybe{
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+.editContainer{
+    display: inline-block;
+}
+.remove {
+  background:#FF6666;
+    border-radius: 100%;
+    color:white;
+    font-size:24px;
+    padding:5px;
+}
+.estimate {
+    background: linear-gradient( #FF6644, #FF6666);
+    padding: 15px;
+    border-radius: 15px;
+}
+.questionBox {
+    padding-top: 20%;
+}
+.bodyCont{
+    width: 100%;
+    height: 100%;
+}
+.ATAR {
+    display: block;
+    padding:1%;
+}
+.ATAR h1 {
+    color: black;
+    font-size: 300%;
+}
+.ATAR #estimated {
+    border-style: solid;
+    border-color: #52b760;    
+    border-radius: 50px;
+}
+.middle{
+    text-align: center;
+    margin: auto;
+}
+.ad {
+    border-style: solid;
+    border-color: #52b760;
+    color: darkslategrey;
+    border-radius: 50px;
+    margin: 5%;
+}
+.info {
+    font-family: 'Lato', sans-serif;
+}
+.title{
+   font-size: 150%;
+   text-align: center;
+}
+.markL{
+ display: inline-block;
+ width: 40%;
+}
+.markR{
+width: 20%;
+display: inline-block;
+}
+/*FOOTER*/
+footer{
+    height: 10%;   ;
+    padding: 20px;
+    background:#3da24b;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+footer a:link, footer a:visited{
+   font-family: 'Lato', sans-serif;
+    color:white;
+}
+.error {
+    color: #FF6644;
+    text-align: center;
+}
+@media screen and (min-width: 480px) {
+    .partition{
+        display: block;
+    }
+}
